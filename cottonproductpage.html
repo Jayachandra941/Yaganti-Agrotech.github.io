@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YAGANTI AGROTECH</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+        <section id="header">
+            <a href="index.html"><img src="img/logo.png" class="logo"></a>
+            <h3  style="color: teal; font-size: 23px; position: relative;  bottom: 5px;right: 90px;">YAGANTI AGROTECH</h3>
+            <h5  style="color: green; font-size: 12px; position: relative; top: 20px; right: 370px">The Global Future Is Seed</h5>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="products.html">Products</a></li>
+                    <li><a href="promotions.html">Promotions</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+
+        </section>
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/products/cotton/1.jpg" style="width: 100%; height: 65%"  id="MainImg">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/products/cotton/2.jpg" width="100%" class="small-img">
+                    </div>
+
+                </div>
+            </div>
+            <div class="single-pro-details">
+                <h4>Product Details</h4>
+                <span>Cotton seeds are the seeds of the cotton plant. Cotton seeds are ovoid, 3.5-10 mm long. They are densely covered with white or rusty, long and woolly hairs, called the lint, which is the main product used to make cotton textiles, and shorter hairs.</span>
+            </div>
+        </section>
+</section><br><hr><br>
+     <footer class="section1-p1">
+            <div class="coll">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>  Plot No. 38, Green Park Avenue, Near Suchitra Circle, NH-7,Jeedmitla(V) Hyderabad-500067</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class="follows">
+                    <h4>Follow us</h4>
+                    <div class="icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coll">
+                <h4>About</h4>
+                <a href="about.html">About us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="coll">
+                <h4>My Account</h4>
+                <a href="Login.html">Sign In</a>
+                <a href="Signup.html">Sign Up</a>
+                <a href="contact.html">Help</a>
+            </div>
+        </footer>
+
+
+
+
+
+        <script>
+            var MainImg = document.getElementById("MainImg")
+            var smallimg = document.getElementsByClassName("small-img");
+
+            smallimg[0].onclick = function(){
+                MainImg.src = smallimg[0].src;
+            }
+            smallimg[1].onclick = function(){
+                MainImg.src = smallimg[1].src;
+            }
+            smallimg[2].onclick = function(){
+                MainImg.src = smallimg[2].src;
+            }
+            smallimg[3].onclick = function(){
+                MainImg.src = smallimg[3].src;
+            }
+            smallimg[4].onclick = function(){
+                MainImg.src = smallimg[4].src;
+            }
+            smallimg[5].onclick = function(){
+                MainImg.src = smallimg[5].src;
+            }
+            smallimg[6].onclick = function(){
+                MainImg.src = smallimg[6].src;
+            }
+
+        </script>
+
+        <script src="script.js"></script>
+
+</body>
+</html>
